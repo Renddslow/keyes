@@ -1,6 +1,6 @@
 # keyes
 
-> A tiny (322B + 1 dependency) package for intercepting keypresses
+> A tiny package for intercepting keypresses
 > and firing callbacks.
 
 ## Install
