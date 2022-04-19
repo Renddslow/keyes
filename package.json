@@ -1,6 +1,6 @@
 {
 	"name": "keyes",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"private": false,
 	"description": "A tiny package for intercepting keypresses and firing callbacks.",
 	"repository": "https://github.com/Renddslow/keyes",
