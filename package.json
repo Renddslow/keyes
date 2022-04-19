@@ -10,8 +10,10 @@
 	"scripts": {
 		"build": "esbuild --outfile=dist/index.js src/index.ts --minify",
 		"test": "ava",
-		"coverage": "nyc ava --exclude"
+		"coverage": "nyc ava --exclude",
+		"postbuild": "tsc --emitDeclarationOnly"
 	},
+	"types": "dist/index.d.ts",
 	"files": [
 		"dist",
 		"README.md"
